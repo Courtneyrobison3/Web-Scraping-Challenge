@@ -81,5 +81,3 @@ def scrape():
 
     return Mars_data
 
-
-scrape()
