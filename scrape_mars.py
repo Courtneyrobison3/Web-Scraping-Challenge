@@ -32,11 +32,11 @@ def scrape():
     full_image_elem = browser.find_by_id('full_image')
     full_image_elem.click()
 
-    browser.is_element_present_by_text('more info', wait_time=10)
+    browser.is_element_present_by_text('more info', wait_time=1)
     more_info_elem = browser.links.find_by_partial_text('more info')
     more_info_elem.click()
     
-    browser.is_element_present_by_text('Image Details', wait_time=10)
+    browser.is_element_present_by_text('Image Details', wait_time=1)
 
     
     html=browser.html
